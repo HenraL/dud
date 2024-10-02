@@ -1,0 +1,23 @@
+# Unwanted editor cache
+.vscode/**
+
+# No temporary files
+*tmp*
+
+# No docker cache
+*.bash_history
+
+# No environements allowed
+.env
+
+# No modules allowed
+node_modules/**
+
+# No unwanted environements
+**/.env/**
+**/env/**
+**/lenv/**
+**/menv/**
+**/wenv/**
+**/server_env/**
+**/doc/**
