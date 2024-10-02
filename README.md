@@ -1,3 +1,5 @@
+![The teraria icon](./doxygen_generation/favicon/android-chrome-384x384.png)
+
 # Terarea (Project: Area)
 
 ## Table of Contents
