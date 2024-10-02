@@ -24,7 +24,6 @@
 
     <!-- Begin attributions -->
     <meta name="publisher" content="Henry Letellier" />
-    <meta name="google-site-verification" content="" />
     <meta name="copyright" content="&copy Harleen Singh-Kaur" />
     <meta name="copyright" content="&copy Eric Xu" />
     <meta name="copyright" content="&copy Flavien Maillard" />
@@ -40,18 +39,18 @@
     <!-- END opengraph metadata -->
 
     <!-- BEGIN robot info -->
+    <meta name="google-site-verification" content="" />
     <meta name="robots" content="index, follow, max-image-preview:standard" />
     <meta name="Index" content="This is the documentation about the Area project" />
     <meta name="author" content="Harleen Singh-Kaur, Thomas Lebouc, Eric Xu, Flavien Maillard, Henry Letellier" />
     <!-- END Robot info -->
 
-    <!-- BEGIN twitter metadata -->
-    <meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
-    <meta name="twitter:title" content="Doxygen Awesome" />
-    <meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
-    <!-- END twitter metadata -->
 
+    <!-- BEGIN styling -->
     <link href="$relpath^tabs.css" rel="stylesheet" type="text/css" />
+    <!-- END styling -->
+
+    <!-- BEGIN Javascript overfloods -->
     <script type="text/javascript" src="$relpath^jquery.js"></script>
     <script type="text/javascript" src="$relpath^dynsections.js"></script>
     <script type="text/javascript" src="$relpath^doxygen-awesome-darkmode-toggle.js"></script>
@@ -67,11 +66,16 @@
         DoxygenAwesomeInteractiveToc.init()
         DoxygenAwesomeTabs.init()
     </script>
+    <!-- End javascript overfloods -->
+
     $treeview
     $search
     $mathjax
+
+    <!-- BEGIN Update styling -->
     <link href="$relpath^$stylesheet" rel="stylesheet" type="text/css" />
     $extrastylesheet
+    <!-- END Update styling -->
 </head>
 
 <body>
