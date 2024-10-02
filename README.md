@@ -1,4 +1,4 @@
-![The teraria icon](./doxygen_generation/favicon/android-chrome-384x384.png)
+![The teraria icon](https://ifttt-area.pingpal.news/android-chrome-384x384.png)
 
 # Terarea (Project: Area)
 
